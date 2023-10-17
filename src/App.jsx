@@ -35,8 +35,6 @@ function getPageContent(page,param) {
     if (page === 'post')
         return <Single postId={param}/>
 
-
-
     return <NotFound page={page}/>
 }
 

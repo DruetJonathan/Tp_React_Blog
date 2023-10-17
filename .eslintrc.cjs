@@ -12,6 +12,7 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
+    'import/no-dynamic-require': 'off', // Désactive l'erreur liée aux importations dynamiques
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
